@@ -64,7 +64,7 @@ def display_hangman(attempts):
     ]
     return stages[attempts]
 
-print("#----------------------------------------------       -HELLO PLAYERS WELCOME TO HANGMAN GAME-------------------------------------------------------------#")
+print("#------------------------------------------------------HELLO PLAYERS WELCOME TO HANGMAN GAME-------------------------------------------------------------#")
 print("\n#-----------You have to guess words based on countries, each incorrect entry can make you lose one of the man's bodypart so choose accordingly----------#")
 print("\n#------------------if the man gets hanged then you LOSE, guess the correct word (letters in lowercase only) before hanged man and WIN-------------------#")
 
