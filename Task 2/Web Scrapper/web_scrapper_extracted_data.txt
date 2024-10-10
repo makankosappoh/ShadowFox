@@ -1,3 +1,4 @@
+#-------------------here it is shwon some extracted data after running code based on finding different headings fron the site-------------------#
 h1: Apple
 h2: iPhone 16 Pro
 h2: iPhone 16
