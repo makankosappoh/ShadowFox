@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-req = requests.get("https://www.apple.com/in/") #in the website there was some verification bot issue so theres an alt link fo site
+req = requests.get("https://www.apple.com/in/") #Sample website for web scrapping
 
 soup = BeautifulSoup(req.content, "html.parser")
 
@@ -29,6 +29,7 @@ paragraphs = soup.find_all('p')
 for idx, paragraph in enumerate(paragraphs):
     print(f"Paragraph {idx + 1}: {paragraph.text}")
 #-------------------------------------------------------------------------------------------------------------------------------------------------#
+
 file_path = 'web_scrapper_extracted_data.txt'
 # Save the data to a text file
 with open(file_path, 'w', encoding='utf-8') as file:
