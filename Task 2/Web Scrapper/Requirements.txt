@@ -1,0 +1,5 @@
+We-need-to-install-3-things-wrt-pip:
+
+python
+beautifulsoup4
+requests
